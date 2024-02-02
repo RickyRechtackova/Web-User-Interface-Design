@@ -23,7 +23,24 @@ header{
     text-shadow: -4px 0 black, 0 4px black, 2px 0 black, 0 -2px black;
 }
 
-section{
+#trivia{
+    text-align: center;
+}
+
+#quiz{
+    font-family: 'Hippie Flower', sans-serif;
+    font-size: 55px;
+    color: #FFA300;
+    text-shadow: -2px 0 black, 0 4px black, 2px 0 black, 0 -2px black;
+}
+
+#tip{
+    font-family: 'Hippie Flower', sans-serif;
+    color:#F96D6C;
+
+}
+
+#homepage{
     background-color: #ffecdd;
     width:75%;
     height: 100%;
@@ -83,13 +100,16 @@ li a:hover{
     border-radius: 15px;
 }
 
-#images{
+#image-container{
     width: 100%;
-    float: left;
-    /* background-color:aqua; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2vw;
+    background-color: #2196F3;
 }
 
-#archive{
+.archive-img{
     display: block;
     float: left;
     width: 300px;
@@ -104,4 +124,68 @@ li a:hover{
     font-size: 20px;
     margin-left: 2vw;
     font-family: 'HarlequinFLF', sans-serif;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px 8px 0px;
+    display: inline-block;
+    border: 1px solid #F96D6C;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffecdd;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 20px;
+
+}
+  
+input[type=submit] {
+    width: 53%;
+    background-color: white;
+    color: #FC333D;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 30px;
+}
+  
+input[type=submit]:hover {
+    background-color: #ffecdd;
+}
+  
+#quiz-body{
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 3vh;
+    width: 80%;
+    display: inline-block;
+    border: solid 3px #FFA300;
+    background-image:url(../../assets/images/4970943.jpg);
+    border-radius: 15px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.question-box{
+    display: inline-block;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px;
+}
+
+#select{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px 8px 0px;
+    display: inline-block;
+    border: 1px solid #F96D6C;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffecdd;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 20px;
 }
