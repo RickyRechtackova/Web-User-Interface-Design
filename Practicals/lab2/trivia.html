@@ -17,27 +17,70 @@
             <h2 id="quiz">𖤓 Trivia Quiz 𖤓</h2>
             <p id="tip">* tip ~ all the answers can be found on this website </p>
             <div id="quiz-body">
-                <form action="/action_page.php">
+                <form>
+                    <!-- Question 1 -->
                     <div class="question-box">
-                    <label >What year did the Hippie movement start?</label><br>
-                    <input type="text" required>
+                        <label for="questionOne">What year did the Hippie movement start?</label><br>
+                        <input type="text" id="questionOne" required>
                     </div>
-                    <br>
+                    <!-- Question 2 -->
                     <div class="question-box">
-                    <label >Where did the movement originate from?</label><br>
-                    <select id="select" required>
-                        <option value="">please select</option>
-                        <option value="UnitedStates">United States</option>
-                        <option value="UnitedKingdom">United Kingdom</option>
-                        <option value="Canada">Canada</option>
-                      </select>
+                        <label for="questionTwo">Where did the movement originate from?</label><br>
+                        <select id="questionTwo" required>
+                            <option value="">please select</option>
+                            <option value="UnitedStates">United States</option>
+                            <option value="UnitedKingdom">United Kingdom</option>
+                            <option value="Canada">Canada</option>
+                        </select>
+                    </div>
+                    <!-- Question 3 -->
+                    <div class="question-box">
+                        <label>What did the word "hip" mean in African American jive slang?</label>
+                        <div id="radioContainer">
+                            <input type="radio" id="colourful" value="Colourful" name="slang" required>
+                            <label for="colourful">Colourful</label><br>
+                            <input type="radio" id="sophisticated" value="Sophisticated" name="slang" required>
+                            <label for="sophisticated">Sophisticated</label><br>
+                            <input type="radio" id="lame" value="Lame" name="slang" required>
+                            <label for="lame">Lame</label><br>
+                        </div>
                     </div>
         
-                    <input type="submit" value="Submit">
+                    
 
 
                 </form>
-              </div>
+                <button id="submitButton" onclick=checkAnswers()>Submit</button>
+            </div>
+            <div id="solutionTable">
+                <table cellspacing="0">
+                    <!-- Question 1 -->
+                    <tr>
+                        <th class="tableQuestions" id="tableQuestionOne">What year did the Hippie movement start?</th>
+                        <!-- <td rowspan="2" ><img src="assets/images/check.png" width="150vw"></td> -->
+                    </tr>
+                    <tr>
+                        <td id="tableTextOne"><p class="tableText" >Movement began in the United States during or around 1964</p></td>
+                    </tr>
+                    <!-- Question 2 -->
+                    <tr>
+                        <th class="tableQuestions" id="tableQuestionTwo">Where did the movement originate from?</th>
+                    </tr>
+                    <tr>
+                        <td id="tableTextTwo"><p class="tableText">Movement began in the United States and spread to different countries around the world</p></td>
+                    </tr>
+                    <!-- Question 3 -->
+                    <tr>
+                        <th class="tableQuestions" id="tableQuestionThree">What did the word "hip" mean in African American jive slang?</th>
+                    </tr>
+                    <tr>
+                        <td id="tableTextThree"><p class="tableText">Hip meant sophisticated; currently fashionable; fully up-to-date</p></td>
+                    </tr>
+
+
+                </table>
+            </div>
+
 
         </section>
 
