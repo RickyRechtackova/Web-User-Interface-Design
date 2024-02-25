@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ricky Rechtackova">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lab3</title>
+        <link href="assets/css/screen.css" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/hippie-flower" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/harlequinflf" rel="stylesheet">
+    </head>
+    <body class="trivia">
+        <header>
+            <h1><a href="index.html">Hippie Movement</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href=#fashion>Fashion</a></li>
+                <li><a href=#beliefs>Beliefs</a></li>
+                <li><a href=#timeline>Timeline</a></li>
+                <li><a href=#music>Music</a></li>
+                <li><a href="archive.html">Photo Archive</a></li>
+                <li class="active"><a href="trivia.html">Trivia Quiz</a></li>
+                <li id="menu-header">☮︎❀𓋼𖥧𖡼⊱✿⊰𖡼𖥧𓋼❀☮︎</li>
+            </ul>
+        </nav>
+        <section id="trivia">
+            <h2 id="quiz">𖤓 Trivia Quiz 𖤓</h2>
+            <p id="tip">* tip ~ all the answers can be found on this website </p>
+            <div id="quiz-body">
+                <form>
+                    <!-- Question 1 -->
+                    <div class="question-box">
+                        <label for="questionOne">What year did the Hippie movement start?</label><br>
+                        <input type="text" id="questionOne" required>
+                    </div>
+                    <!-- Question 2 -->
+                    <div class="question-box">
+                        <label for="questionTwo">Where did the movement originate from?</label><br>
+                        <select id="questionTwo" required>
+                            <option value="">please select</option>
+                            <option value="UnitedStates">United States</option>
+                            <option value="UnitedKingdom">United Kingdom</option>
+                            <option value="Canada">Canada</option>
+                        </select>
+                    </div>
+                    <!-- Question 3 -->
+                    <div class="question-box">
+                        <label>What did the word "hip" mean in African American jive slang?</label>
+                        <div id="radioContainer">
+                            <input type="radio" id="colourful" value="Colourful" name="slang" required>
+                            <label for="colourful">Colourful</label><br>
+                            <input type="radio" id="sophisticated" value="Sophisticated" name="slang" required>
+                            <label for="sophisticated">Sophisticated</label><br>
+                            <input type="radio" id="lame" value="Lame" name="slang" required>
+                            <label for="lame">Lame</label><br>
+                        </div>
+                    </div>
+        
+                    
+
+
+                </form>
+                <button id="submitButton" onclick=checkAnswers()>Submit</button>
+            </div>
+            <div id="solutionTable">
+                <table>
+                    <!-- Question 1 -->
+                    <tr>
+                        <th class="tableQuestions" id="tableQuestionOne">What year did the Hippie movement start?</th>
+                        <!-- <td rowspan="2" ><img src="assets/images/check.png" width="150vw"></td> -->
+                    </tr>
+                    <tr>
+                        <td id="tableTextOne"><p class="tableText" >Movement began in the United States during or around 1964</p></td>
+                    </tr>
+                    <!-- Question 2 -->
+                    <tr>
+                        <th class="tableQuestions" id="tableQuestionTwo">Where did the movement originate from?</th>
+                    </tr>
+                    <tr>
+                        <td id="tableTextTwo"><p class="tableText">Movement began in the United States and spread to different countries around the world</p></td>
+                    </tr>
+                    <!-- Question 3 -->
+                    <tr>
+                        <th class="tableQuestions" id="tableQuestionThree">What did the word "hip" mean in African American jive slang?</th>
+                    </tr>
+                    <tr>
+                        <td id="tableTextThree"><p class="tableText">Hip meant sophisticated; currently fashionable; fully up-to-date</p></td>
+                    </tr>
+
+
+                </table>
+            </div>
+
+
+        </section>
+
+
+        <script src="assets/js/quiz.js"></script>
+    </body>
