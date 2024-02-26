@@ -1,0 +1,393 @@
+/* css for bodies */
+.index{
+    background-color: #F96D6C;
+    margin: 0;
+}
+
+.archive, .trivia{
+    background-color: #ffecdd;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #FC333D;
+    font-family: 'Hippie Flower', sans-serif;
+    font-size: 5vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* header on all pages */
+
+header{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/4970943.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-family: 'Hippie Flower', sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-shadow: -4px 0 black, 0 4px black, 2px 0 black, 0 -2px black;
+}
+
+/* css for quiz page */
+
+#trivia{
+    text-align: center;
+}
+
+#quiz{
+    font-family: 'Hippie Flower', sans-serif;
+    font-size: 55px;
+    color: #FFA300;
+    text-shadow: -2px 0 black, 0 4px black, 2px 0 black, 0 -2px black;
+}
+
+#tip{
+    font-family: 'Hippie Flower', sans-serif;
+    color:#F96D6C;
+
+}
+
+input[type=text]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0px 8px 0px;
+    display: inline-block;
+    border: solid #F96D6C;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #ffecdd;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 20px;
+
+}
+  
+#quiz-body{
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 3vh;
+    width: 80%;
+    display: inline-block;
+    border: solid 3px #FFA300;
+    background-image:url(../../assets/images/4970943.jpg);
+    border-radius: 15px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.question-box{
+    display: inline-block;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid #FC333D;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px;
+}
+
+#radioContainer{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0px 8px 0px;
+    display: inline-block;
+    border: solid #F96D6C;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #ffecdd;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+select{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0px 8px 0px;
+    display: inline-block;
+    border: solid #F96D6C;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #ffecdd;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 20px;
+}
+
+table, th, td {
+  border: transparent;
+  border-collapse: collapse;
+  border-radius: 15px;
+}
+
+#solutionTable{
+    width: 80%;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 10px;
+    text-align: left;
+    border: solid #FFA300;
+    display: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableQuestions{
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 4vh;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tableText{
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 3vh;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#submitButton{
+    width: 50%;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 4vh;
+    border: solid #FC333D;
+    background-color: #ffecdd;
+}
+
+#submitButton:hover{
+    background-color: #FC333D;
+    color:white;
+    cursor: pointer;
+}
+
+.correctHeading{
+    background-color: #c6ff80;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.incorrectHeading{
+    background-color: #F96D6C;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.correctText{
+    background-color: #dcffb2;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.incorrectText{
+    background-color: #ffa9a9;
+    border-radius: 0px 0px 15px 15px;
+}
+
+/* css for home page */
+
+#homepage{
+    background-color: #ffecdd;
+    width:100%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 20px;
+
+}
+
+#menu-header{
+    text-align: center;
+    background-color: #FC333D;
+    font-size: 2.5vh;
+    color: white;
+    padding: 11px 0px 11px 0px;
+    border: 0px transparent;
+    float: left;
+    overflow: hidden;
+}
+
+ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color:  #FC333D;
+    font-family: 'Hippie Flower', sans-serif;
+    font-size: 3.5vh;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+  
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+    
+li{
+    float: left;
+    overflow: hidden;
+    width: 14.2%;
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    color: white;
+    background-color: #FFA300;
+}
+
+.active {
+    background-color: #FFA300;
+}
+
+#intro-image{
+    float: right;
+    width: 500px;
+    margin: 0px 0px 15px 15px;
+    border-radius: 15px;
+}
+
+.popup{
+    display: none;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px 45px 0px 500px;
+}
+
+#popup_content{
+    width: 20%;
+    height: 30%;
+    background-image: url(../../assets/images/1000_F_485581803_e6R4qgr5f12aUz6OS5P7C0RqOZcmikYQ.jpg);
+    margin: auto;
+    display: block;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 30px;
+}
+
+/* css for archive */
+
+#container{
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 98%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-template-rows: 50% 50% 50% 50%;
+    column-gap: 1%;
+    /* background-color: #2196F3; */
+}
+
+.content{
+    width:100%;
+    height: 100%;
+    /* border: solid black 1px; */
+}
+
+.archive-img{
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
+
+#archive-text{
+    padding: 1%;
+    text-align: center;
+    font-size: 120%;
+    font-family: 'HarlequinFLF', sans-serif;
+}
+
+/* css for music page */
+
+#musicPage{
+    background-color: #ffecdd;
+    width:100%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-size: 30px;
+}
+
+.musicVideoLeft{
+    float: left;
+    margin: 0px 15px 15px 0px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.musicVideoRight{
+    float: right;
+    margin: 0px 0px 15px 15px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.header { grid-area: header; }
+.video { grid-area: video; }
+.text { grid-area: text; }
+
+.grid-container-one{
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'video text text text text text'
+        'video text text text text text';
+    gap: 5px;
+    padding: 10px;
+}
+
+.grid-container-two{
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'text text text text text video'
+        'text text text text text video';
+    gap: 5px;
+    padding: 10px;
+}
+
+.grid-container-one > div, .grid-container-two > div{
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: left;
+  padding: 20px 0;
+  font-size: 30px;
+
+}
+
+.grid-container-one  > .header, .grid-container-two > .header{
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    background-color: #F96D6C;
+    border-radius: 15px;
+}
