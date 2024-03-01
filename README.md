@@ -19,6 +19,7 @@ My website targets people who are interested to learn more about the history of 
 - **Week 3:** New page for a trivia quiz, added link to the navigation.
 - **Week 4:** Working quiz connected to javascrip for checkign answers.
 - **Week 5:** Changed menu and added it to all pages with active showing.
+- **Week 6:** 
 
 ## Learning Reflections
 ### Challenges
@@ -27,6 +28,7 @@ My website targets people who are interested to learn more about the history of 
 - **Week 3:** Creating a form for a quiz, trying to figure out how to check answers through javascript.
 - **Week 4:** Learned how to check answers of a form with javastcript with various question forms (select, radio button) and how to space out table cells.
 - **Week 5:** Learned how to space out content using a grid.
+- **Week 6:** 
 
 ### Insights
 - **Week 1:** 
@@ -34,6 +36,7 @@ My website targets people who are interested to learn more about the history of 
 - **Week 3:**
 - **Week 4:**
 - **Week 5:**
+- **Week 6:** 
 
 ## Development Updates
 - **Week 1:** Basic hompage with colour shceme matching the theme of the website, categorising future content into navigation.

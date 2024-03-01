@@ -1,10 +1,10 @@
 /* css for bodies */
-.index{
+#index{
     background-color: #F96D6C;
     margin: 0;
 }
 
-.archive, .trivia{
+#archive, #trivia, #music{
     background-color: #ffecdd;
     margin: 0;
 }
@@ -277,17 +277,20 @@ li a:hover{
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.3);
-    padding: 10px 45px 0px 500px;
+    padding-top: 200px;
 }
 
 #popup_content{
-    width: 20%;
+    width: 40%;
     height: 30%;
     background-image: url(../../assets/images/1000_F_485581803_e6R4qgr5f12aUz6OS5P7C0RqOZcmikYQ.jpg);
     margin: auto;
     display: block;
+    text-align: center;
+    padding: 50px;
     font-family: 'HarlequinFLF', sans-serif;
-    font-size: 30px;
+    font-size: 100px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
 }
 
 /* css for archive */

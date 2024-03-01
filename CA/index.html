@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internet and The World Wide Web</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h1>Learning Resource: Internet and The World Wide Web</h1>
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- Introduction to Web Architecture -->
+            <section id="web-architecture" class="web-architecture">
+                <h2>Introduction to Web Architecture</h2>
+                <div class="grid-container">
+                    <div class="architecture">
+                        
+                        <article><h3>Web Architectrue</h3>Web architecture is the way HTML, CSS and JavaScript functions together tp build a webpage. Together with images, fonts, etc. they make up websites
+                            with specific styles and colour schemes.
+                        </article>
+                    </div>
+                    <div class="servers">
+                        
+                        <article><h3>Web Servers</h3>Web servers are applications that make up a web page in response to user requests. Both virtual and physical servers have a hardware controlled by an
+                            operating system. 
+                        </article>
+                        <table>
+                            <tr>
+                                <th>Aspect</th>
+                                <th>Physical</th>
+                                <th>Virtual</th>
+                            </tr>
+                            <tr>
+                                <td>Hardware</td>
+                                <td>Lorem Ipsum</td>
+                                <td>Lorem Ipsum</td>
+                            </tr>
+                            <tr>
+                                <td>Scalability</td>
+                                <td>Lorem Ipsum</td>
+                                <td>Lorem Ipsum</td>
+                            </tr>
+                            <tr>
+                                <td>Cost</td>
+                                <td>Lorem Ipsum</td>
+                                <td>Lorem Ipsum</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+            </section>
+        
+            <!-- Web Protocols -->
+            <section id="web-protocols">
+                <h2>Web Protocols</h2>
+                    <dl>
+                        <dt>
+                            HTTP
+                            <dd>= HyperText Transfer Protocol</dd>
+                            <dd>- the foundation of data communication</dd>
+                            <dd>- defines the rules for requesting and transferring web resources (HTML files, images, stylesheets)</dd>
+                        </dt>
+                    </dl>
+                    <dl>
+                        <dt>
+                            HTTPS
+                            <dd>= HyperText Transfer Protocol Secure</dd>
+                            <dd>- secure version of HTTP</dd>
+                            <dd>- uses encryption to protect the data exchanged</dd>
+                            <dd>- provides integrity and confidentiality</dd>
+                        </dt>
+                    </dl>
+                    <dl>
+                        <dt>
+                            TCP/IP
+                            <dd>= Transmission Control Protocol/Internet Protocol</dd>
+                            <dd>- <b>TCP</b> - communication between application software (browser) and network software, responsible for breaking down data into IP
+                            packets when they're sent and assembling them when recieved</dd>
+                            <dd>- <b>IP</b> - responsible for sending packets to destination</dd>
+                        </dt>
+                    </dl>
+                    <dl>
+                        <dt>
+                            FTP
+                            <dd>= File Transfer Protocol</dd>
+                            <dd>- enables file transfer from local machine to web server</dd>
+                        </dt>
+                    </dl>
+
+            </section>
+        
+            <!-- Web Concepts -->
+            <section id="web-concepts" class="web-concepts">
+                <h2>Web Concepts</h2>
+                <div class="concept-group">
+                    <div class="concept">
+                        <h3>URL</h3><p>= Uniform Resource Locator</p><p>- url is a web adress consisting of a protocol, domain name and path.<p>It can also
+                        contain sub-domain.</p>
+                        <h3>DNS</h3><p>= Domain Name System </p><p>- translates human readable domain names into IP adresses.</p>
+                        <figure><img src="example-url-structure.png"></figure>
+                        <h3>TLD</h3><p>= Top-Level Domain</p><p>- can be generic: 
+                        <ul>
+                            <li>.org</li>
+                            <li>.com</li>
+                            <li>.net</li>
+                        </ul>
+                        <p>- or country codes: 
+                        <ul>
+                            <li>.ie</li>
+                            <li>.cz</li>
+                            <li>.fr</li>
+                        </ul>
+                    </div>
+                    <div class="concept">
+                        <h3>Cookies</h3><p>= small pieces of data sent to clients browser</p><p>- used for user authentication, tracking user behaviour,
+                            remembering site preferences (e.g. location for weather or road information)</p>
+                        <h3>Caching</h3><p>= storing copies of frequently accessed resources</p><p>- thanks to that it reduces and improves load times of pages</p>
+                        <h3>Browsers</h3><p>= software apps displaying content using rendering engines (chromium, gecko, webkit)</p>
+                        <ul>
+                            <li>Chrome</li>
+                            <li>Safari</li>
+                            <li>Opera</li>
+                            <li>Microsoft Edge</li>
+                        </ul>
+                        <p>- they can behave differently, the reasons for that are:</p>
+                        <ul>
+                            <li>They are developed independently</li>
+                            <li>They use multiple rendering engines</li>
+                            <li>the DOM support varies</li>
+                            <li>They each display their own JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Internet vs. The Web -->
+            <section id="internet-vs-web">
+                <h2>Internet vs World Wide Web</h2>
+                <table class="versus">
+                    <tr>
+                        <th>Internet</th>
+                        <th>World Wide Web</th>
+                    </tr>
+                    <tr>
+                        <td>= INTERconnected NETwork </td>
+                        <td>information system accessible via internet</td>
+                    </tr>
+                    <tr>
+                        <td>connects computers across the globe</td>
+                        <td>transfers documents/sources using the protocols</td>
+                    </tr>
+                </table>
+            </section>
+        
+            <!-- Communication between Client and Server -->
+            <section id="client-server-communication" class="client-server">
+                <h2>Communication between Client and Server</h2>
+                <main><b>Request Response Model</b> = client (browser) sends requests and the server delivers data</main>
+                <aside><b>Stateless Protocol</b> = each request is independent and does not retain previous information, that's where cookies are usually used<br>
+                    <b>Web Sockets</b> = enables two-way communication, used for real time applications like chat, gaming, live updates,...
+                </aside>
+            </section>
+        
+            <!-- Client-side Development Technologies -->
+            <section id="client-side-tech">
+                <h2>Client-Side Development Technologies</h2>
+                <p>= client side involves everything users see on their screen -> HTML, CSS, JavaScript</p>
+            
+            </section>
+        </div>        
+    
+        <footer>
+            <p>Web UI Design Course - Year 2, Semester 2</p>
+        </footer>
+    </body>
+</html>    

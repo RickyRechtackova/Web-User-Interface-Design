@@ -9,12 +9,12 @@ function popUp(){
     popup.style.display = "block";
 }
 
-// indexbody.onclick = function(event){
-//     if(event.target == popup)
-//     {
-//         popup.style.display = "none";
-//     }
-// }
+indexbody.onclick = function(event){
+    if(event.target == popup)
+    {
+        popup.style.display = "none";
+    }
+}
 
 //sound when clicking
 button.addEventListener("click", function(){
