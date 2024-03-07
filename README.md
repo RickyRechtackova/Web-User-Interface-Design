@@ -19,7 +19,7 @@ My website targets people who are interested to learn more about the history of 
 - **Week 3:** New page for a trivia quiz, added link to the navigation.
 - **Week 4:** Working quiz connected to javascrip for checkign answers.
 - **Week 5:** Changed menu and added it to all pages with active showing.
-- **Week 6:** 
+- **Week 6:** Added music page with videos, changed photo srchive layout to flexbox, added a popup on main page with sound.
 
 ## Learning Reflections
 ### Challenges
@@ -28,7 +28,7 @@ My website targets people who are interested to learn more about the history of 
 - **Week 3:** Creating a form for a quiz, trying to figure out how to check answers through javascript.
 - **Week 4:** Learned how to check answers of a form with javastcript with various question forms (select, radio button) and how to space out table cells.
 - **Week 5:** Learned how to space out content using a grid.
-- **Week 6:** 
+- **Week 6:** Learned how to use flexbox adn space out content in it to be responsive to changes in screen size.
 
 ### Insights
 - **Week 1:** 
@@ -44,5 +44,6 @@ My website targets people who are interested to learn more about the history of 
 - **Week 3:** Starting with javascript to check answers of quiz.
 - **Week 4:** Javascript for answer checking working, will keep adding questions as the website progresses.
 - **Week 5:** Menu updated to be horizontal and photo archive placement fixed.
+- **Week 6:** New music page, different layout for archive and added photos + text. New popup on home page. Header changes on main page when hovered over.
 
 This README serves as a living document, evolving with the website as I add more features and content.

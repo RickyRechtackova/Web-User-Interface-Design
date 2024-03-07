@@ -20,3 +20,11 @@ indexbody.onclick = function(event){
 button.addEventListener("click", function(){
     clickSound.play();
 })
+
+document.getElementById("header").addEventListener('mouseover', function(){
+    this.style.color = '#FFA300';
+})
+
+document.getElementById("header").addEventListener('mouseout', function(){
+    this.style.color = 'white';
+})
