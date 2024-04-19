@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ricky Rechtackova">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elluin</title>
+        <link href="assets/css/screen.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="assets/images/planet.ico">
+        <link href="https://fonts.cdnfonts.com/css/kathiega" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/spaced" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="menu-column">
+            <a href="#" onclick="openMenu()" id="mobile-menu" class="fa fa-bars"></a>
+            <a href="index.html"><img id="logo" alt="Self portrait Logo" src="assets/images/tvGirl.png"></a>
+            <nav>
+                <ul id="mylinks">
+                    <li><a href="index.html">Digital Art</a></li>
+                    <li><a href="traditional.html">Traditional Art</a></li>
+                    <li><a href="concept.html">Concept Art</a></li>
+                    <li><a href="modeling.html">3D Modeling</a></li>
+                    <!-- <li><a href="#Posters">Posters</a></li> -->
+                    <li><a class="active" href="character.html">Character Design</a></li>
+                    <li><a href="web.html">Web</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="sm-icons">
+                <a href="https://www.instagram.com/elluin.creates/" class="fa fa-instagram"></a>
+                <!-- <a href="#" class="fa fa-twitter"></a> -->
+                <a href="https://github.com/RickyRechtackova" class="fa fa-github"></a>
+                <!-- <a href="" class="fa fa-envelope"></a> -->
+            </div>
+        </div>
+
+        <div id="character-grid" class="grid-container">
+            <div><img class="grid-img" alt="digital art of a purple alien" src="assets/images/Character/duviell.png"></div>
+            <div><img class="grid-img" alt="digital sketch of an elf" src="assets/images/Character/myskaiya.digital.png"></div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <p id="button-left">◀</p>
+            <span class="close">X</span>
+            <p id="button-right">▶</p>
+            <img alt="concept painting" id="gallery-portrait" src="assets/images/Traditional/IMG-20240304-WA0006.jpg">
+            </div>
+        </div>
+        <script src="assets/js/character.js"></script>
+    </body>

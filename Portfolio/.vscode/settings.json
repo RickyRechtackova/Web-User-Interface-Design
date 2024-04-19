@@ -1,0 +1,13 @@
+{
+    "indentRainbow.lightIndicatorStyleLineWidth": 3,
+    "indentRainbow.colors": [
+        "rgb(255, 0, 102)",
+        "rgb(255, 80, 80)",
+        "rgb(255, 153, 102)",
+        "rgb(255, 242, 230)",
+        "rgb(255, 179, 237)",
+        "rgb(255, 51, 204)",
+        "rgb(204, 0, 153)"
+    ],
+    "indentRainbow.indicatorStyle": "light",
+}
